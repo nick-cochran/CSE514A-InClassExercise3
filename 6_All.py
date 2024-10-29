@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
 
-h_data = pd.read_csv(r"C:\Users\Ben Dizdar\Downloads\hSamples.csv", header=None)
-m_data = pd.read_csv(r"C:\Users\Ben Dizdar\Downloads\mSamples.csv", header=None)
+h_data = pd.read_csv(r"./hSamples.csv", header=None)
+m_data = pd.read_csv(r"./mSamples.csv", header=None)
 # Need to change file paths above ^ 
 test_sample = [3, 4, 4, 6, 2, 3, 7, 7, 2, 7, 5, 11, 3, 8, 3, 10]
 
